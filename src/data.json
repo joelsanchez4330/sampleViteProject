@@ -1,0 +1,17 @@
+{
+    "clientName": "PT. Sinar Abadi Logistics",
+    "whatsappNumber": "628123456789", 
+    "theme": {
+      "primaryColor": "#0044cc",
+      "secondaryColor": "#f4f4f4"
+    },
+    "hero": {
+      "title": "Solusi Logistik Terpercaya di Surabaya",
+      "subtitle": "Mengirim ke seluruh Indonesia dengan armada terlengkap.",
+      "cta": "Hubungi Admin"
+    },
+    "services": [
+      { "id": 1, "name": "Pengiriman Darat", "desc": "Sewa truk CDD, Fuso, hingga Tronton." },
+      { "id": 2, "name": "Gudang Transit", "desc": "Penyimpanan aman di area Tanjung Perak." }
+    ]
+  }
