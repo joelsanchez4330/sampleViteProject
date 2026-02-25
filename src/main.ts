@@ -6,6 +6,7 @@ import database from './data.json';
 const titleElement = document.querySelector<HTMLHeadingElement>('#hero-title');
 const ctaButton = document.querySelector<HTMLButtonElement>('#cta-btn');
 const subtitleElement = document.querySelector<HTMLParagraphElement>('#hero-subtitle');
+const whatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
 
 // 3. Inject the data
 if (titleElement) {
@@ -19,7 +20,7 @@ if (subtitleElement) {
 if (ctaButton) {
   ctaButton.innerText = database.hero.cta;
   ctaButton.onclick = () => {
-    window.open(`https://wa.me/${database.whatsappNumber}`, '_blank');
+    window.open(`https://wa.me/${whatsapp}`, '_blank');
   };
 }
 
